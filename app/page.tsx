@@ -82,6 +82,14 @@ export default function Home() {
             />
           </label>
         </div>
+        <a
+         href="/sample_policy.pdf"
+         download
+         className="mt-2 inline-block text-sm text-blue-400 hover:underline"
+        >
+        Download sample health insurance policy (PDF)
+        </a>
+
 
         <div className="mb-8">
           <label className="text-sm text-white/70 mb-2 block">
