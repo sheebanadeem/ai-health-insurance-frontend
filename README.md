@@ -54,11 +54,13 @@ An end-to-end full stack generative AI application that helps users understand c
 <h2>Live Demo</h2>
 
 Frontend (Live App):
+```bash
  https://ai-health-insurance-frontend.vercel.app
-
+```
 Backend API:
+```bash
  https://ai-health-insurance-backend.onrender.com
-
+```
 <h2>Sample Policy</h2>
 
 For easy testing, the application includes a sample health insurance policy PDF that can be downloaded directly from the UI.
@@ -67,49 +69,69 @@ This allows evaluators and users to test the app instantly without needing an ex
 
 <h2>Running Locally</h2>
 Backend
-# Clone the repository
+
+```bash
+Clone the repository
 git clone <backend-repo-url>
 cd backend
-
+```
+ 
 <h3>Create virtual environment</h3>
+
+```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+```
 
 <h3>Install dependencies</h3>
-pip install -r requirements.txt
 
+```bash
+pip install -r requirements.txt
+```
 <h3>Set environment variables</h3>
 export GROQ_API_KEY=your_api_key_here
 or on Windows:
 setx GROQ_API_KEY your_api_key_here
 
 <h3> Run server</h3>
+
+```bash
 uvicorn main:app --reload
 
-
+```
 Backend will run at:
 
+```bash
 http://127.0.0.1:8000
-
+```
 Frontend
 <h3> Clone the repository</h3>
+
+```bash
 git clone <frontend-repo-url>
 cd frontend
-
+```
 <h3>Install dependencies</h3>
+
+```bash
 npm install
-
+```
 <h3> Set environment variable</h3>
-NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
 
+```bash
+NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
+```
 <h3> Run development server</h3>
+
+```bash
 npm run dev
 
-
+```
 Frontend will run at:
 
+```bash
 http://localhost:3000
-
+```
  <h2>Design & UX Notes</h2>
 
 Thoughtful spacing, typography, and interaction design
