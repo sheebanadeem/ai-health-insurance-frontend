@@ -71,19 +71,19 @@ Backend
 git clone <backend-repo-url>
 cd backend
 
-# Create virtual environment
+<h3>Create virtual environment</h3>
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Install dependencies
+<h3>Install dependencies</h3>
 pip install -r requirements.txt
 
-# Set environment variables
+<h3>Set environment variables</h3>
 export GROQ_API_KEY=your_api_key_here
-# or on Windows:
-# setx GROQ_API_KEY your_api_key_here
+or on Windows:
+setx GROQ_API_KEY your_api_key_here
 
-# Run server
+<h3> Run server</h3>
 uvicorn main:app --reload
 
 
@@ -92,17 +92,17 @@ Backend will run at:
 http://127.0.0.1:8000
 
 Frontend
-# Clone the repository
+<h3> Clone the repository</h3>
 git clone <frontend-repo-url>
 cd frontend
 
-# Install dependencies
+<h3>Install dependencies</h3>
 npm install
 
-# Set environment variable
+<h3> Set environment variable</h3>
 NEXT_PUBLIC_API_URL=http://127.0.0.1:8000
 
-# Run development server
+<h3> Run development server</h3>
 npm run dev
 
 
