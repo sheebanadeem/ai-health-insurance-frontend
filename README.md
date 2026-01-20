@@ -18,38 +18,38 @@ An end-to-end full stack generative AI application that helps users understand c
 
 <h2>How It Works</h2>
 
-The user uploads a health insurance policy PDF (or uses the provided sample).
+ - The user uploads a health insurance policy PDF (or uses the provided sample).
 
-The backend extracts text from the PDF.
+ - The backend extracts text from the PDF.
 
-A Pydantic AI agent analyzes the document and the user’s question.
+ - A Pydantic AI agent analyzes the document and the user’s question.
 
-The agent generates a clear, grounded answer based on the policy content.
+ - The agent generates a clear, grounded answer based on the policy content.
 
-The response is displayed instantly in the frontend.
+ - The response is displayed instantly in the frontend.
 
 <h2>Tech Stack</h2>
-Frontend
+ - Frontend
 
-Next.js (App Router)
+ - Next.js (App Router)
 
-TypeScript
+ - TypeScript
 
-Tailwind CSS
+ - Tailwind CSS
 
-Deployed on Vercel
+- Deployed on Vercel
 
-Backend
+ - Backend
 
-FastAPI
+ - FastAPI
 
-Pydantic AI (agent orchestration, validation, retries)
+ - Pydantic AI (agent orchestration, validation, retries)
 
-PDF text extraction service
+ - PDF text extraction service
 
-LLM via API
+ - LLM via API
 
-Deployed on Render
+ - Deployed on Render
 
 <h2>Live Demo</h2>
 
