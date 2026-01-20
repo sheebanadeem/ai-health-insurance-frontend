@@ -4,17 +4,17 @@ An end-to-end full stack generative AI application that helps users understand c
 
  <h2>Features</h2>
 
- Upload health insurance policy PDFs
+ - Upload health insurance policy PDFs
 
- Ask natural language questions about coverage, exclusions, waiting periods, etc.
+ - Ask natural language questions about coverage, exclusions, waiting periods, etc.
 
- AI agent parses and reasons over policy content
+ - AI agent parses and reasons over policy content
 
- Fast, real-time responses
+ - Fast, real-time responses
 
- Clean, modern, premium UI
+ - Clean, modern, premium UI
 
- Fully deployed and usable end-to-end
+ - Fully deployed and usable end-to-end
 
 <h2>How It Works</h2>
 
