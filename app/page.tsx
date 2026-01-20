@@ -83,7 +83,7 @@ export default function Home() {
           </label>
         </div>
         <a
-         href="/sample_policy.pdf"
+         href="/sample_health_insurance_policy.pdf"
          download
          className="mt-2 inline-block text-sm text-blue-400 hover:underline"
         >
