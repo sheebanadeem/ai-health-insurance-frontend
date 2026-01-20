@@ -132,7 +132,7 @@ Highlighting source clauses in answers
 
 User authentication and history
 
-<h2> Author</h2>
+<h2>Author</h2>
 
 Sheeba Nadeem
 B.Tech CSE (Big Data Analytics)
